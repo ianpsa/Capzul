@@ -7,13 +7,14 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
+
 const config = {
   title: 'CrypSec - Documentation',
   tagline: 'A detailed security analysis from the CrypSec team',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://capzul-docs.onrender.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +22,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'Capzul', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -85,19 +86,19 @@ const config = {
             items: [
               {
                 label: 'Ian Pereira',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://www.linkedin.com/in/ian-pereira-simao/',
               },
               {
                 label: 'Danilo Martins',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://www.linkedin.com/in/danilo-martins-merlo-381b76228/',
               },
               {
                 label: 'Ana Beggiato',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://www.linkedin.com/in/ana-beggiato/',
               },
               {
                 label: 'Fernanda Correia',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://www.linkedin.com/in/fernanda-correia04/',
               },
             ],
           },
