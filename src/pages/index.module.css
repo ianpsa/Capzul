@@ -3,11 +3,11 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
+ .heroBanner {
+  background-color: var(--background-color) !important; /* Match the background color */
+  color: var(--text-color);
+  padding: 2rem 0;
   text-align: center;
-  position: relative;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 996px) {
