@@ -1,0 +1,135 @@
+/* Base Styles */
+:root {
+  --primary-color: #00ff00; /* Neon Green */
+  --background-color: #1a1a1a; /* Dark Background */
+  --text-color: #ffffff; /* White Text */
+  --secondary-color: #ff00ff; /* Neon Pink */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Header */
+.navbar {
+  background-color: var(--background-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.navbar__title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.navbar__item {
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+.navbar__item:hover {
+  color: var(--primary-color);
+}
+
+/* Sidebar */
+.menu__list-item > a {
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+.menu__list-item > a:hover {
+  color: var(--primary-color);
+}
+
+/* Main Content */
+.main-wrapper {
+  padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  text-shadow: 0 0 5px var(--primary-color);
+}
+
+p, li {
+  line-height: 1.6;
+}
+
+/* Code Blocks */
+pre {
+  background-color: #0d0d0d;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  padding: 1rem;
+  overflow: auto;
+  box-shadow: 0 0 10px var(--secondary-color);
+}
+
+code {
+  color: var(--primary-color);
+}
+
+/* Links */
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-shadow: 0 0 5px var(--primary-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--background-color);
+  border-top: 2px solid var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer__links {
+  color: var(--text-color);
+}
+
+.footer__links a {
+  color: var(--secondary-color);
+  transition: color 0.3s;
+}
+
+.footer__links a:hover {
+  color: var(--primary-color);
+}
+
+/* Buttons */
+button, .button {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover, .button:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar__items {
+    flex-direction: column;
+  }
+
+  .menu__list {
+    padding: 0;
+  }
+
+  .main-wrapper {
+    padding: 1rem;
+  }
+}
