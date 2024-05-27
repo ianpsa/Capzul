@@ -27,8 +27,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Olá de ${siteConfig.title}`}
-      description="Descrição ficara disponível nos metadados em <head />">
+      title={`${siteConfig.title}, uma análise completa do Capzul protect.`}
+      description="Documentação completa CrypSec - Capzul protect, ctf document.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
