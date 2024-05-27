@@ -122,7 +122,7 @@ button:hover, .button:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
   .navbar__items {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .menu__list {
