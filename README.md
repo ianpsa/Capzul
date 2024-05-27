@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # CrypSec - Pentesting
 Vamos descobrir os resultados do teste de penetração realizado nos sistemas da Capzul.
 
