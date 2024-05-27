@@ -40,12 +40,6 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/ianpsa/Capzul',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -70,6 +64,11 @@ const config = {
           },
           { to: '/relatorio', label: 'Relatório', position: 'left' },
         ],
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       footer: {
         style: 'dark',
@@ -106,6 +105,7 @@ const config = {
   stylesheets: [
     'src/css/custom.css',
   ],
+  
 };
 
 export default config;
