@@ -1,0 +1,33 @@
+{
+  "/Capzul/relatorio-611": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "a26fe03e"
+  },
+  "/Capzul/docs-fb8": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/Capzul/docs-d29": {
+    "__comp": "a7bd4aaa",
+    "__props": "9c36dce9"
+  },
+  "/Capzul/docs-6e6": {
+    "__comp": "a94703ab"
+  },
+  "/Capzul/docs/intro-6c7": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/Capzul/-c42": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

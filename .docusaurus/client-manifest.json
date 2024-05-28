@@ -1,0 +1,229 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      76,
+      237
+    ],
+    "17896441": [
+      76,
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "0e384e19": [
+      76,
+      976
+    ],
+    "1f391b9e": [
+      76,
+      869,
+      61
+    ],
+    "5e95c892": [
+      647
+    ],
+    "9c36dce9": [
+      125
+    ],
+    "a26fe03e": [
+      76,
+      173
+    ],
+    "a7456010": [
+      235
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      76,
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "c4f5d8e4": [
+      869,
+      634
+    ],
+    "styles": [
+      48,
+      61,
+      76,
+      354,
+      401,
+      634,
+      792,
+      869
+    ],
+    "common": [
+      48,
+      61,
+      173,
+      237,
+      401,
+      869,
+      976,
+      76
+    ]
+  },
+  "assets": {
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.d0c6cad8.js",
+          "hash": "4e395d0e8b06d77a",
+          "publicPath": "/Capzul/assets/js/a94703ab.d0c6cad8.js"
+        }
+      ]
+    },
+    "61": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.5e73b1a0.js",
+          "hash": "dedc4a7a1e5f7ca7",
+          "publicPath": "/Capzul/assets/js/1f391b9e.5e73b1a0.js"
+        }
+      ]
+    },
+    "76": {
+      "js": [
+        {
+          "file": "assets/js/common.f93adea0.js",
+          "hash": "6eb5dc96eb0c8f67",
+          "publicPath": "/Capzul/assets/js/common.f93adea0.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.44448011.js",
+          "hash": "27e4fe28ac0d4214",
+          "publicPath": "/Capzul/assets/js/a7bd4aaa.44448011.js"
+        }
+      ]
+    },
+    "125": {
+      "js": [
+        {
+          "file": "assets/js/9c36dce9.8c7565e5.js",
+          "hash": "1daca0fa2f7c7186",
+          "publicPath": "/Capzul/assets/js/9c36dce9.8c7565e5.js"
+        }
+      ]
+    },
+    "173": {
+      "js": [
+        {
+          "file": "assets/js/a26fe03e.1abbece3.js",
+          "hash": "ae27b41cd73a26ee",
+          "publicPath": "/Capzul/assets/js/a26fe03e.1abbece3.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.a353dd62.js",
+          "hash": "943a986970e1e697",
+          "publicPath": "/Capzul/assets/js/a7456010.a353dd62.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.03b6933a.js",
+          "hash": "cff2ee60c3a89bdb",
+          "publicPath": "/Capzul/assets/js/237.03b6933a.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.5eb9c139.js",
+          "hash": "dd6e7eeedcbc61b5",
+          "publicPath": "/Capzul/assets/js/runtime~main.5eb9c139.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.1e296688.js",
+          "hash": "454e1c60be7b3bbe",
+          "publicPath": "/Capzul/assets/js/17896441.1e296688.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.1307c82f.js",
+          "hash": "31a7668c91e705e9",
+          "publicPath": "/Capzul/assets/js/c4f5d8e4.1307c82f.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.288c2110.js",
+          "hash": "c2a4afaaeee84848",
+          "publicPath": "/Capzul/assets/js/5e95c892.288c2110.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.4bcbe865.js",
+          "hash": "15de58501caf2845",
+          "publicPath": "/Capzul/assets/js/aba21aa0.4bcbe865.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.bf11f022.js",
+          "hash": "f9832f52ef438a30",
+          "publicPath": "/Capzul/assets/js/main.bf11f022.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.52cae7a0.css",
+          "hash": "4a725505cc5db487",
+          "publicPath": "/Capzul/assets/css/styles.52cae7a0.css"
+        }
+      ]
+    },
+    "976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.8b02db83.js",
+          "hash": "fced0327f040bffd",
+          "publicPath": "/Capzul/assets/js/0e384e19.8b02db83.js"
+        }
+      ]
+    }
+  }
+}

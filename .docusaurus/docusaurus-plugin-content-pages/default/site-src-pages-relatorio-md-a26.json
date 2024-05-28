@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/Capzul/relatorio",
+  "source": "@site/src/pages/relatorio.md",
+  "title": "Relatório de Teste de Penetração",
+  "description": "1.0 Resumo Executivo",
+  "frontMatter": {
+    "id": "relatorio-teste-penetracao",
+    "title": "Relatório de Teste de Penetração"
+  },
+  "unlisted": false
+}

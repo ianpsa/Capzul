@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/markdown-page",
+  "source": "@site/src/pages/markdown-page.md",
+  "title": "Capzul Detalhes Técnicos",
+  "description": "1.0 Resumo Executivo",
+  "frontMatter": {
+    "title": "Capzul Detalhes Técnicos"
+  },
+  "unlisted": false
+}
