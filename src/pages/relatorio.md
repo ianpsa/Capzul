@@ -11,7 +11,7 @@ Durante o teste de penetração realizado, identificamos várias portas abertas 
 ## 2.0 Metodologia
 
 ### 2.1 Coleta de Informações
-Utilizamos o Nmap para realizar a varredura inicial e identificamos as portas 5678, 80 e 22 abertas. Ao investigar mais detalhadamente, verificamos que o servidor era um proxy. A porta 80 estava rodando o Nginx na versão mais recente, que até o momento não possui vulnerabilidades conhecidas exploráveis por scripts zeroday.
+Utilizamos o Nmap para realizar a varredura inicial e identificamos as portas 5678, 80 e 22 abertas. Ao investigar mais detalhadamente, verificamos que o servidor era um proxy. A porta 80 estava rodando o Nginx na versão mais recente, que até o momento não possui vulnerabilidades conhecidas exploráveis.
 
 **IP do Proxy:** [http://52.20.204.145](http://52.20.204.145)  
 **IP Normal:** [http://34.196.222.5](http://34.196.222.5)
@@ -22,7 +22,7 @@ Realizamos tentativas de exploração nas portas identificadas:
 - **Porta 5678**: Tentamos explorar a vulnerabilidade CVE-2018-12613 (phpMyAdmin) usando o Metasploit Framework, mas a tentativa foi infrutífera, indicando que a porta não era vulnerável a este exploit.
 - **Porta 22**: Porta de SSH, nenhuma tentativa de brute force foi realizada durante este teste inicial.
 
-### 2.3 Penetração
+### 2.3 Pentesting
 1. **Exploit CVE-2018-12613 - phpMyAdmin**  
    Tentamos explorar a vulnerabilidade CVE-2018-12613 na porta 5678 através do Metasploit Framework, mas o resultado foi negativo, indicando que não há vulnerabilidades conhecidas nessa porta no contexto do servidor específico.
 
