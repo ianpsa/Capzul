@@ -81,7 +81,7 @@ const config = {
                 href: 'https://www.linkedin.com/in/ian-pereira-simao/',
               },
               {
-                label: 'Danilo Martins',
+                label: 'Daniel Martins',
                 href: 'https://www.linkedin.com/in/danilo-martins-merlo-381b76228/',
               },
               {
